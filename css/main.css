@@ -141,7 +141,7 @@ header button:active{
 
     float: left;
     background-color: #f6f7fa;
-    background-image: url(/img/AllYouNeedBack.png);
+    background-image: url(https://proveno.github.io/Merkury/img/AllYouNeedBack.png);
 }
 #AllYouNeed h1{
     color: #0e1a35;
@@ -164,7 +164,7 @@ header button:active{
     padding-top: 200px;
     padding-bottom: 200px;
     background-color: #0e1a35;
-    background-image: url(/img/Back2.png);
+    background-image: url(https://proveno.github.io/Merkury/img/Back2.png);
 }
 #DragDrop h1{
     color: #ffffff;
