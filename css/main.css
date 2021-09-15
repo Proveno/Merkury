@@ -5,8 +5,8 @@ html, body{
 
 #Home{
     background-color: #0e1a35;
-    background: url(https://proveno.github.io/Merkury/img/Back.png);
-
+    background: url(https://proveno.github.io/Merkury/img/Back.png) no-repeat;
+    background-position: center;
     padding-top: 65px;
     padding-left: 10%;
     padding-right: 10%;
@@ -100,10 +100,11 @@ header button:active{
     text-align: center;
     padding-left: 10%;
     padding-right: 10%;
-    padding-top: 250px;
+    padding-top: 180px;
     padding-bottom: 100px;
 }
 #IconFeatures img{
+    margin-top: 70px;
     margin-bottom: 70px;
 }
 #IconFeatures p{
@@ -141,7 +142,8 @@ header button:active{
 
     float: left;
     background-color: #f6f7fa;
-    background-image: url(https://proveno.github.io/Merkury/img/AllYouNeedBack.png);
+    background: url(https://proveno.github.io/Merkury/img/AllYouNeedBack.png) no-repeat;
+    background-position: center;
 }
 #AllYouNeed h1{
     color: #0e1a35;
@@ -152,6 +154,9 @@ header button:active{
     font-size: 20px;
     margin-top: 30px;
 }
+#AllYouNeed .text{
+    width: 40%;
+}
 #AllYouNeed p{
     color: #8492af;
     margin-top: 30px;
@@ -161,13 +166,16 @@ header button:active{
 #DragDrop{
     padding-left: 10%;
     padding-right: 10%;
-    padding-top: 200px;
+    padding-top: 150px;
     padding-bottom: 200px;
     background-color: #0e1a35;
-    background-image: url(https://proveno.github.io/Merkury/img/Back2.png);
+    background: url(https://proveno.github.io/Merkury/img/Back2.png);
+    background-position: center;
 }
 #DragDrop h1{
     color: #ffffff;
+    margin-top: 50px;
+    margin-left: 10px;
 }
 #DragDrop p{
     color: #8492af;
@@ -180,15 +188,20 @@ header button:active{
     margin-left: 5px;
 }
 .tasks{
+    min-width: 270px;
     background-color: #ffffff;
-    margin-right: 50px;
     height: 100px;
+    margin-left: 25px;
+    margin-right: 25px;
     float: left;
     border: 1px solid #46577c;
 }
+.tasksText{
+    padding-left: 0px;
+}
 .tasks .row{
     margin-top: 25px;
-    padding-left: 30px;
+    padding-left: 20px;
     padding-right: 45px;
 }
 .tasks button{
@@ -211,15 +224,16 @@ header button:active{
     padding-top: 100px;
     padding-bottom: 800px;
     background-color: #ffffff;
-    background-image: url(https://proveno.github.io/Merkury/img/PSD.png);
+    background: url(https://proveno.github.io/Merkury/img/PSD.png) no-repeat;
+    background-position: center;
     text-align: center;
 }
 #PowerfullPSD p{
     color: #8492af;
     font-size: 20px;
     margin-top: 50px;
-    margin-left: 250px;
-    margin-right: 250px;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 #Pricing{
     padding-left: 10%;
@@ -229,14 +243,14 @@ header button:active{
     text-align: center;
 }
 #Pricing h1{
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 }
 #Pricing p{
     color: #8492af;
     font-size: 20px;
     margin-top: 50px;
-    margin-left: 250px;
-    margin-right: 250px;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 .puncts{
     margin-top: 15px;
@@ -246,6 +260,9 @@ header button:active{
     box-shadow: 0 0 25px #dfe0e4;
     padding-top: 40px;
     padding-bottom: 40px;
+    margin-top: 50px;
+    margin-left: 55px;
+    margin-right: 55px;
 }
 #Pricing button{
     background-color: #5584ff;
